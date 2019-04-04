@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.first{
+    color: #E0E2D2;
+    background-color: black;
+    height: 10vh;
+    padding-left: 15vw;
+    overflow: hidden;
+    z-index: 1;
+    top: 0;
+    position: sticky;
+}
+
+.link{
+    height: 100%;
+    width: 10vw;
+    font-size: 20px;
+    float: left;
+    transition: .1s;
+    text-align: center;
+    padding-top: 3.5vh;
+    cursor: pointer;
+}
+
+.link:hover{
+    background-color: rgb(0,98,186);
+
+    
+}
+
+.first img{
+    margin-right: 10vw;
+    float: right;
+    height: 100%;
+}
+
+.welc-txt-primary{
+    padding: 0;
+    margin: 0;
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20vh;
+}
+
+.welc-txt-secondary{
+    padding: 0;
+    margin: 0;
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5vh;
+    margin-bottom: 20vh;
+}
+
+.panel-l{
+    width: 45vw;
+    color: #E0E2D2;
+    float: left;
+    font-size: 40px;
+    text-align: center;
+    clip-path: polygon(0 0, 75% 0%, 100% 100%, 0 100%);
+    background-color: rgb(0,98,186);
+    height: 14vh;
+    padding-top: 8vh;
+
+}
+
+.panel-r{
+    background-color:  transparent;
+    color: #E0E2D2;
+    width: 40vw;
+    float: right;
+    padding-right: 5vw;
+    padding-top: 6vh;
+    font-size: 20px;
+    line-height: 4vh;
+    height: 22vh;
+}
+
+.desc{
+    padding-top: 10vh;
+    height: 100vh;
+}
+
+.wrap{
+    margin: auto;
+    margin-bottom: 10vh;;
+    height: 22vh;
+    background-image: url(1.jpeg);
+    width: 90vw;
+
+    box-shadow: 1vh 1vh 5px rgba(0, 0, 0, 0.2);
+}
