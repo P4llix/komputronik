@@ -11,14 +11,14 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> 
 </head>
-<body>
+<body id="body">
     <div class="first" id="first">
-        <div class="link">Wydarzenia</div>
-        <div class="link">Opis</div>
-        <div class="link">Liczby</div>
-        <div class="link">Kariera</div>
-        <div class="link">Konkurs</div>
-        <img src="logo.gif">
+            <a href="#carouselExampleIndicators"><div class="link"> Wydarzenia </div></a>
+            <a href="#desc"><div class="link"> Opis </div></a>
+            <a href="#number"><div class="link">Liczby</div></a>
+            <a href="#carrier"><div class="link">Kariera</div></a>
+            <a href="#konkurs"><div class="link">Konkurs</div></a>
+            <a href="#body"><img src="logo.gif"></a>
     </div>
     
     <div class="main" id="main">
@@ -26,7 +26,7 @@
             <p class="welc-txt-primary">Witamy w Komputronik!</p>
             <p class="welc-txt-secondary">Działamy na rynku od 22 lat!</p>
         </div>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"> <br> <br> <br> <br>
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -56,7 +56,7 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-        <div class="desc">
+        <div id="desc" class="desc"> <br>
                 <div class="wrap">
                     <div class="panel-l">Innowacyjność
                         </div>
@@ -77,7 +77,7 @@
                             </div>
                 </div>                    
         </div>
-        <div class="number" id="number">
+        <div class="number" id="number"> <br>
             <div class="icon">
                 <i class="far fa-clock"></i>
                 <br>
@@ -119,7 +119,7 @@
                     <p>ponad 1000 zatrudnionych</p>
                 </div>
             </div>        
-        <div class="carrier">
+        <div class="carrier" id="carrier"> <br> <br> <br> <br>
           <div class="choose">
             <div id="list-l" class="list">Ludzie w firmie</div>
             <div id="list-i" class="list">Integracja</div>
@@ -131,9 +131,28 @@
             <p class="lista" id="rozwoj"></p>
           </div>
         </div>
-        asdasd
-        asd
-        asdasdasd <br>
+        <div id="konkurs" class="konkurs">
+            <div class="konkurs-txt">
+                <p class="txt">
+                Jestem uczniem technikum informatycznego i na konkurs "Gaming Laptop Hunters" chciałbym zgłosić witrynę internetową. 
+                Jest to niestandardowy pomysł ale myślę że projekt i wykonanie są całkiem ciekawe. 
+                Strona została w 100% wykonana przeze mnie, nie licząc elementów graficznych wziętych ze stocków oraz reklam ze strony www.komputronik.pl. 
+                Podczas tworzenia strony towarzyszyła mi ogromna przyjemność związana z faktem tworzenia czegoś całkowicie od zera. 
+                Spośród wszystkich laptopów najbardziej spodobał mi się DELL Inspiration 17 G3, jego wygląd i parametry są perfekcyjnie zbalansowane. 
+                Lubię dużo podróżować i myśleć w otoczeniu natury a przemieszczanie się ze stacjonarnym komputerem na plecach nie należy do najwygodniejszych rzeczy. 
+                Laptop służyłby do szkoły oraz w głównej mierze do gier z którymi jestem jak "prawdziwy informatyk" związany od urodzenia.
+
+                </p>
+                <a href="https://www.komputronik.pl/product/501806/dell-inspiron-17-g3-3779-6899.html" target="blank">Link do Laptopa</a>
+            </div>
+        </div>
+        <div class="kontakt">
+            <div class="moje">
+                <p class="dane"><i class="far fa-user"></i> Mikołaj Jarek</p>
+                <p class="dane"><i class="far fa-envelope"></i> mikolajjarek@o2.pl</p>
+                <p class="dane">Komputronik S.A konkurs "Gaming Laptop Hunters"</p>
+            </div>
+        </div>
     </div>
 <script src="main.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

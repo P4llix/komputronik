@@ -1,8 +1,7 @@
 var d1 = document.getElementById("list-i");
 d1.style.background = "rgb(0,98,186)";
 d1.style.color = "white";
-var d4 = document.getElementById("integ");
-    d4.innerText = "Integracja – na tym znamy się najlepiej. Lubimy ze sobą przebywać, ponieważ tworzymy zgrany zespół fajnych ludzi. W wolnym czasie spotykamy się, gramy w piłkę, żeglujemy, jeździmy na nartach… O ile tylko mamy na to ochotę.";
+document.getElementById("integ").innerText = "Integracja – na tym znamy się najlepiej. Lubimy ze sobą przebywać, ponieważ tworzymy zgrany zespół fajnych ludzi. W wolnym czasie spotykamy się, gramy w piłkę, żeglujemy, jeździmy na nartach… O ile tylko mamy na to ochotę.";
 
 
 

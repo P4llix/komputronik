@@ -1,4 +1,5 @@
 body{
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
@@ -10,7 +11,7 @@ body{
     height: 10vh;
     padding-left: 15vw;
     overflow: hidden;
-    z-index: 1;
+    z-index: 999999;
     top: 0;
     position: sticky;
 }
@@ -24,6 +25,8 @@ body{
     text-align: center;
     padding-top: 3.5vh;
     cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 
 .link:hover{
@@ -97,7 +100,6 @@ body{
     background-image: url(1.jpeg);
     width: 96vw;
     box-shadow: 1vh 1vh 5px rgba(0, 0, 0, 0.2);
-    cursor: pointer;
 }
 
 .number{
@@ -107,11 +109,11 @@ body{
     height: 100vh;
     background-size: cover;
     background-position: center center;
-    box-shadow: 1vh 1vh 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0vh 1vh 5px rgba(0, 0, 0, 0.2);
 }
 
 .icon{
-    cursor: pointer;
+    border-radius: 15px;
     color: black;
     text-align: center;
     width: 20.5vw;
@@ -121,13 +123,14 @@ body{
     height: 32vh;
     margin-top: 5vh;
     float: left;
-    font-size: 35px;
+    font-size: 20px;
     padding-top: 10vh;
     transition: 0.2s;
 }
 
 .icon i{
-    font-size: 80px;
+    margin-bottom: 2vh;
+    font-size: 50px;
 }
 
 .icon:hover{
@@ -136,13 +139,14 @@ body{
 }
 
 .carrier{
+
     width: 100%;
     margin-top: 10vh;
 }
 
 .choose{
     
-    width: 50vw;
+    width: 45vw;
     margin: auto;
 }
 
@@ -152,20 +156,25 @@ body{
     width: 15vw;
     border: 1px solid rgb(0,98,186);
     border-bottom: none;
-    float: left;
+    float: right;
     padding: 30px 10px;
     transition: .2s;
     cursor: pointer;
 }
 
 .info{
+    box-shadow: 1vh 1vh 5px rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     padding-top: 6vh;
-    border: 2px solid rgb(0,98,186);
+    border: 3px solid rgb(0,98,186);
+    border-bottom: 50px solid rgb(0,98,186);
     height: 40vh;
     width: 70vw;
     clear: both;
     margin: auto;
 }
+
 
 .lista{
     
@@ -174,4 +183,34 @@ body{
     margin: auto;
     width: 50vw;
     padding: 0 10vw;
+}
+
+.konkurs{
+    margin: 10vh 0;
+}
+
+.konkurs-txt{
+    margin: auto;
+    width: 75vw;
+}
+
+.txt{
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.kontakt{
+    color: white;
+    height: 30vh;
+    background-color: rgb(0,98,186);
+}
+
+.moje{
+    padding-left: 15vw;
+    padding-top: 5vh;
+}
+
+.dane{
+    
+    font-size: 20px;
 }
